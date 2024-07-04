@@ -30,7 +30,7 @@
     <Compile Include="APIObject.py" />
     <Compile Include="main3.py" />
     <Compile Include="main2.py" />
-    <Compile Include="PythonWeb.py" />
+    <Compile Include="Tests\PythonWeb.py" />
     <Compile Include="Tests\checkDict.py" />
     <Compile Include="Tests\exactMatchExample.py" />
     <Compile Include="Tests\pdfrw_link.py" />
