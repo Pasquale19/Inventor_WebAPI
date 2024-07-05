@@ -6,7 +6,7 @@ import timeit
 import json 
 
 if __name__ =="__main__":
-    outputPath='output/resultAPI_final.pdf'
+    outputPath='output/resultAPI2.pdf'
     start=start = timeit.default_timer()
     APIObjects=APIObject.loadAPIObjects("output/API_list.txt")    
     path="Pdf/Inventor2022ObjectModel.pdf"
@@ -14,14 +14,19 @@ if __name__ =="__main__":
     doc2=doc
     len1=len(APIObjects)
     page=doc2[0]
+
+    #layers
+    oc_link = doc.add_ocg("links")
+    oc_box = doc.add_ocg("boxes")
+
     for count,item in enumerate(APIObjects):
         box=item.box()
         area=box.get_area()
         if area>1000: continue
-        #page.draw_rect(box,  color = (1, 1, 0), width = 2)
+        page.draw_rect(box,  color = (1, 1, 0), width = 2,oc=oc_box)
         linkdict2 = {'kind': 2, 'xref': 121, 'from': box, 'page': 1, 'to': Point(108.0, 460.0),'uri': item.url}
         page.insert_link(linkdict2)
-        print(f"from dic1 {count}/{len1}\tadded {item.name} with ")
+        print(f"from dic1 {count+1}/{len1}\tadded {item.name} with ")
         if count % 100==0:
             save_file=f"output/resultAPI{count}.pdf"
             doc2.save(save_file)

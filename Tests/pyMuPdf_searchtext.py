@@ -7,9 +7,7 @@ def saveDict(d:dict,path:str="dict.txt"):
     #    print(d, file=f)
     json.dump(d, open(path,'w'))
  
-def camel_case_split(str):
-### https://www.geeksforgeeks.org/python-split-camelcase-string-to-individual-strings/
-    return re.findall(r'[A-Z](?:[a-z]+|[A-Z]*(?=[A-Z]|$))', str)
+
 
 #def checkWord(word:str):
 #    url_start="https://help.autodesk.com/view/INVNTOR/2022/ENU/?guid="
@@ -37,6 +35,7 @@ if __name__=='__main__':
     search_text="PresentationDocument"
     search_text="ModelAnnotation"
     search_text="Application"
+    #search_text="BIMCompoonentPropertySet" #wrong spelled
     text_instances=page.search_for(search_text)
     len_search_text=len(search_text)
     if text_instances is None:
