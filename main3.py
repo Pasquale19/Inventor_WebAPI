@@ -22,7 +22,9 @@ if __name__ =="__main__":
     for count,item in enumerate(APIObjects):
         box=item.box()
         area=box.get_area()
-        if area>1000: continue
+        if item.name=='Application':
+            print("Application")
+        if area>1600: continue
         page.draw_rect(box,  color = (1, 1, 0), width = 2,oc=oc_box)
         linkdict2 = {'kind': 2, 'xref': 121, 'from': box, 'page': 1, 'to': Point(108.0, 460.0),'uri': item.url}
         page.insert_link(linkdict2)
