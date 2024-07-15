@@ -1,0 +1,272 @@
+{
+    "status": "Completed",
+    "totalResult": "27286",
+    "bin": [
+        {
+            "type": "source",
+            "label": "Source",
+            "value": "CloudHelp",
+            "ndocs": "27286"
+        },
+        {
+            "type": "ADSKContentGroup",
+            "label": "Information Category",
+            "value": "Developer's Documentation",
+            "ndocs": "27286"
+        },
+        {
+            "type": "MediaType",
+            "label": "Media",
+            "value": "Text Only",
+            "ndocs": "27286"
+        },
+        {
+            "type": "ADSKUserType",
+            "label": "User Type",
+            "value": "Developer",
+            "ndocs": "26877"
+        },
+        {
+            "type": "ADSKUserType",
+            "label": "User Type",
+            "value": "User",
+            "ndocs": "409"
+        },
+        {
+            "type": "ADSKKnowledgeSource",
+            "label": "Knowledge Source",
+            "value": "Product Documentation",
+            "ndocs": "27286"
+        },
+        {
+            "type": "ADSKContentType",
+            "label": "Content Type",
+            "value": "Reference",
+            "ndocs": "26877"
+        },
+        {
+            "type": "ADSKContentProvider",
+            "label": "Content Provider",
+            "value": "Autodesk",
+            "ndocs": "27286"
+        },
+        {
+            "type": "experiencelevel",
+            "label": "Skill Level",
+            "value": "Advanced",
+            "ndocs": "26877"
+        }
+    ],
+    "entries": {
+        "item": [
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension.htm",
+                "title": "AngularGeneralDimension Object",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension Object </span> Derived from: GeneralDimension <span class=\"vivbold qt0\"> Object </span> Description The <span class=\"vivbold qt0\"> AngularGeneralDimension object </span> represents an angular general dimension placed on a sheet.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension Object",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-587454C3-2D52-4DBF-844A-A47E1320F26E",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_Application.htm",
+                "title": "AngularGeneralDimension.Application Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .Application Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Returns the top-level parent application <span class=\"vivbold qt0\"> object </span> .",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.Application Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-BFFF3780-AA70-4911-8D30-E8EEDD143793",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-Application-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_ExtensionLineTwo.htm",
+                "title": "AngularGeneralDimension.ExtensionLineTwo Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .ExtensionLineTwo Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Property that returns the second extension line of the dimension.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.ExtensionLineTwo Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-1A1415E1-1DB4-4841-BED0-288A8B51C0CA",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-ExtensionLineTwo-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_DimensionLine.htm",
+                "title": "AngularGeneralDimension.DimensionLine Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .DimensionLine Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Property that returns the dimension line geometry of the dimension.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.DimensionLine Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-7D1F39B1-4B30-47D9-849A-2A7FCF29E75E",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-DimensionLine-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_ExtensionLineOne.htm",
+                "title": "AngularGeneralDimension.ExtensionLineOne Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .ExtensionLineOne Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Property that returns the first extension line of the dimension.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.ExtensionLineOne Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-15767071-6ECF-4CC6-96F8-5BAF4C63B040",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-ExtensionLineOne-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_RetrievedFrom.htm",
+                "title": "AngularGeneralDimension.RetrievedFrom Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.RetrievedFrom Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-B3BF4F2B-FE27-4501-9C8F-232EC7082326",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-RetrievedFrom-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_AttributeSets.htm",
+                "title": "AngularGeneralDimension.AttributeSets Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.AttributeSets Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-9F7A7BEE-BE84-4019-87C4-F4B95DC3357C",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-AttributeSets-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_GetReferenceKey.htm",
+                "title": "AngularGeneralDimension.GetReferenceKey Method",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .GetReferenceKey Method Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Method that generates and returns the reference key for this entity.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.GetReferenceKey Method",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-3F462C80-6D8D-47CB-B612-A688D150E9EC",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-GetReferenceKey-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_Retrieved.htm",
+                "title": "AngularGeneralDimension.Retrieved Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.Retrieved Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-D5D91A50-ADBB-499F-BE64-DDEEA2D2466E",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-Retrieved-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_Type.htm",
+                "title": "AngularGeneralDimension.Type Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .Type Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Returns an ObjectTypeEnum indicating this <span class=\"vivbold qt0\"> object </span> 's type.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.Type Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-E4FCD57D-8AF0-4C93-90F6-BDAB8DAFB750",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-Type-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_Parent.htm",
+                "title": "AngularGeneralDimension.Parent Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .Parent Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Property that returns the parent sheet of the <span class=\"vivbold qt0\"> object </span> .",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.Parent Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-945ED946-536F-412D-904E-20BDE94C38DF",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-Parent-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_Tolerance.htm",
+                "title": "AngularGeneralDimension.Tolerance Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.Tolerance Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-65FA7EA6-8EA3-4EAB-836B-9DC70E114EA0",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-Tolerance-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_DimensionType.htm",
+                "title": "AngularGeneralDimension.DimensionType Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .DimensionType Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Gets the dimension type.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.DimensionType Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-3E592B39-C004-48DC-93D6-1A2998C1CBEC",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-DimensionType-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_Precision.htm",
+                "title": "AngularGeneralDimension.Precision Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .Precision Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Gets and sets the Precision setting.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.Precision Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-79F65249-035B-4190-995E-1BC20E972975",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-Precision-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_OverrideModelValue.htm",
+                "title": "AngularGeneralDimension.OverrideModelValue Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .OverrideModelValue Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Gets and sets the NominalValue setting.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.OverrideModelValue Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-BF49071B-88F1-45C8-B897-E7A05CAB9D20",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-OverrideModelValue-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            },
+            {
+                "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension_ArrowheadsInside.htm",
+                "title": "AngularGeneralDimension.ArrowheadsInside Property",
+                "snippet": "<span class=\"vivbold qt0\"> AngularGeneralDimension </span> .ArrowheadsInside Property Parent <span class=\"vivbold qt0\"> Object </span> : <span class=\"vivbold qt0\"> AngularGeneralDimension </span> Description Gets and sets the ArrowheadsInside setting.",
+                "source": "CloudHelp",
+                "shortDescription": "AngularGeneralDimension.ArrowheadsInside Property",
+                "publishDate": "2023-11-06",
+                "topicId": "GUID-3707A57E-2E88-412C-B0E5-2BCF546C605F",
+                "caasKey": "caas/CloudHelp/cloudhelp/2023/ENU/Inventor-API/files/AngularGeneralDimension-ArrowheadsInside-htm.html",
+                "knowledgeSource": [
+                    "Product Documentation"
+                ]
+            }
+        ]
+    }
+}

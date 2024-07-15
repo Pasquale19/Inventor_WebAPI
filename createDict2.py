@@ -33,7 +33,7 @@ def checkWord(word:str):
     else: return "None"
 
 if __name__=='__main__':
-    path="Pdf/Inventor2022ObjectModel.pdf"
+    path="Pdf/Inventor2023ObjectModel.pdf"
     doc = pymupdf.open(path)  # or pymupdf.Document(filename)
     page = doc[0]
     words=page.get_text('words')#https://pymupdf.readthedocs.io/en/latest/page.html#Page.get_text

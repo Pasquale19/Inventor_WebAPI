@@ -5,7 +5,7 @@
     <ProjectGuid>3f4230c4-661d-447f-83ab-6773f3f2965b</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>main3.py</StartupFile>
+    <StartupFile>createDict2023.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,12 +24,15 @@
   <ItemGroup>
     <Compile Include="addLinkToText.py" />
     <Compile Include="checkWebsite.py" />
-    <Compile Include="createDict.py" />
     <Compile Include="checkDict.py" />
+    <Compile Include="createDict2023.py" />
     <Compile Include="createDict2.py" />
     <Compile Include="APIObject.py" />
+    <Compile Include="main2023.py" />
     <Compile Include="main3.py" />
     <Compile Include="main2.py" />
+    <Compile Include="searchDoc2023.py" />
+    <Compile Include="RequestTest.py" />
     <Compile Include="Tests\PythonWeb.py" />
     <Compile Include="Tests\checkDict.py" />
     <Compile Include="Tests\exactMatchExample.py" />
@@ -38,6 +41,7 @@
     <Compile Include="Tests\pyMuPdf_Text.py" />
     <Compile Include="Tests\pyMuPdf_link.py" />
     <Compile Include="Tests\pypdf_link.py" />
+    <Compile Include="Utilities.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />

@@ -1,0 +1,53 @@
+{
+    "status": "Completed",
+    "totalResult": "1",
+    "bin": [
+        {
+            "type": "source",
+            "label": "Source",
+            "value": "discussion",
+            "ndocs": "1"
+        },
+        {
+            "type": "MediaType",
+            "label": "Media",
+            "value": "Text Only",
+            "ndocs": "1"
+        },
+        {
+            "type": "ADSKUserType",
+            "label": "User Type",
+            "value": "User",
+            "ndocs": "1"
+        },
+        {
+            "type": "ADSKKnowledgeSource",
+            "label": "Knowledge Source",
+            "value": "Accepted Solutions In Forums",
+            "ndocs": "1"
+        },
+        {
+            "type": "ADSKContentProvider",
+            "label": "Content Provider",
+            "value": "Individual User",
+            "ndocs": "1"
+        }
+    ],
+    "entries": {
+        "item": [
+            {
+                "url": "https://forums.autodesk.com/t5/Inventor-Programming-iLogic-Macros-AddIns-Apprentice/AddAngularforeshotened-method-doesn-t-work/td-p/9786038",
+                "title": "AddAngularforeshotened method doesn't work",
+                "snippet": "(Centermark  <span class=\"vivbold qt0\"> object </span> .) in the code i am creating a line the represents the vertical line of the centermark, going up. the  <span class=\"vivbold qt0\"> objects </span>  should have the right type but the i get an error when i add the dimension.",
+                "source": "discussion",
+                "shortDescription": "Hi, \n\n \n\nI want to add an angular foreshortened dimension in a drawing\n\n\n\n \n\nThis should be possible with the AddAngularForeshortened function.\n\n \n\nSituation:\n\nFirst i select a drawingcurve, added by including a skecth from the assembly. this is a drawingcurve object.\n\nsecond i select the centermark. (Centermark object.)\n\nin the code i am creating a line the represents the vertical line of the centermark, going up. \n\n \n\nthe objects should have the right type but the i get an error when i add the dimension. \n\nI tried the code with 2 drawingcurve object and this worked, but somehow i can't get the centermark line to work. \n\n \n\nIs there any way to get this to work with a drawingcurve and a centermark?Sub CreateAngularForeshortenedDim\n    ' Open a drawing document and select two parallel linear curves in same drawing view first.\n    Dim oApp As Inventor.Application\n    Set oApp = ThisApplication\n    \n    Dim oDoc As DrawingDocument\n    Set oDoc = oApp.ActiveDocument\n\n    Dim oCurve1 As DrawingCurve, oCurve2 As Centermark\n    Set oCurve1 = oDoc.SelectSet(1).Parent\n    Set oCurve2 = oDoc.SelectSet(2)\n    \n    Dim oSheet As Sheet\n    Set oSheet = oDoc.ActiveSheet\n     \n    Dim oLine As Line2d\n    Set oLine = oApp.TransientGeometry.CreateLine2d(oCurve2.Position, oCurve2.ExtensionPointTwoDirection)\n    \n    Dim oAngle As Boolean\n    oAngle = False\n    \n    ' Create two GeometryIntent based on the selected drawing curve segments.\n    Dim oIntent1 As GeometryIntent, oIntent2 As GeometryIntent, oIntent3 As GeometryIntent\n    Set oIntent1 = oSheet.CreateGeometryIntent(oCurve1)\n    Set oIntent2 = oSheet.CreateGeometryIntent(oLine)\n    Set oIntent3 = oSheet.CreateGeometryIntent(oCurve2)\n    \n    Dim oTextPos As Point2d\n    Set oTextPos = oApp.TransientGeometry.CreatePoint2d(20, 30)\n    \n    ' Create the foreshortened dimension\n    Dim oAngularForeshortenedDim As AngularGeneralDimension\n    Set oAngularForeshortenedDim = oSheet.DrawingDimensions.GeneralDimensions.AddAngularForeshortened(oTextPos, oIntent1, oIntent2, , True, True, False)\nEnd Sub\n\n \n\nKind regards, \n\n \n\nGeert",
+                "publishDate": "2020-10-06",
+                "caasKey": "caas/discussion/t5/Inventor-Programming-iLogic-Macros-AddIns-Apprentice/AddAngularforeshotened-method-doesn-t-work/td-p/9786038.html",
+                "sourceLabel": "Forum",
+                "knowledgeSource": [
+                    "Accepted Solutions In Forums"
+                ]
+            }
+        ]
+    }
+}
